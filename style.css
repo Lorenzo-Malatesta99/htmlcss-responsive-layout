@@ -15,20 +15,37 @@ ol {
   list-style: none;
 }
 
-/* Rules general */
+/* General Rules */
 
 img {
   max-width: 100%;
 }
 
-.container{
-    max-width: 100%;
+.container {
+  max-width: 100%;
 }
 
-.row{
-    display: flex;
-    flex-wrap: wrap;
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.col-100 {
+  width: 100%;
+}
+
+
+
+html {
+  font-family: "Montserrat", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.shadow {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
 /* header */
 
 .font-title {
@@ -40,3 +57,66 @@ img {
   padding: 10px 30px;
 }
 
+/* Hero */
+
+.card {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-yt{
+    width: 70%;
+}
+.hero-title {
+  margin-bottom: 1.5em;
+}
+
+.generic-info {
+  padding: 40px;
+  line-height: 2em;
+}
+
+.social-style {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.button-st {
+    border-radius: 999px;
+    padding: 1em 2.5em;
+    font-size: 20px;
+    margin: 20px 0px;
+    min-width: 150px;
+}
+
+.banner{
+    width: 100%;
+}
+
+
+/* Color Icons */
+
+.fa-facebook{
+    color: rgba(42, 129, 244, 1);
+}
+
+.fa-twitter{
+    color: rgba(0, 158, 255, 1);
+}
+
+.fa-instagram{
+    color: rgba(228, 107, 152, 1);
+}
+
+.fa-pinterest{
+    color: rgba(230, 35, 35, 1);
+}
+
+.fa-youtube{
+    color: rgba(230, 35, 35, 1);
+}
