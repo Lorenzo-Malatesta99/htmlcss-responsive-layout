@@ -30,7 +30,10 @@
     .col-8 {
         width: 100%;
     }
-    
+     .foot-layout{
+        justify-content: center;
+        text-align: center;
+    }
 
 }
 
@@ -60,5 +63,6 @@
         float: none;
         margin: 0 auto;
     }
-    
+   
+
 }

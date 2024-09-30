@@ -170,3 +170,23 @@ h2{
     font-size: 2em;
     font-weight: 500;
 }
+
+
+
+/* Footer */
+
+.foot-layout{
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(124, 105, 164, 1);
+    color: white;
+    padding: 30px;
+}
+
+.col-2{
+    display: flex;
+    gap: 20px;
+}
+.col-1{
+    line-height: 30px;
+}
