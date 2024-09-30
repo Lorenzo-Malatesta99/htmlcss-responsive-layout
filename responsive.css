@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .row.row-header{
+    margin: 0 auto;
+  }
+}

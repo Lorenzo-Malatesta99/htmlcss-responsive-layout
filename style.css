@@ -1,0 +1,42 @@
+/* Reset rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Rules general */
+
+img {
+  max-width: 100%;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* header */
+
+.font-title {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  color: rgba(255, 150, 20, 1);
+  padding: 10px 30px;
+}
+
